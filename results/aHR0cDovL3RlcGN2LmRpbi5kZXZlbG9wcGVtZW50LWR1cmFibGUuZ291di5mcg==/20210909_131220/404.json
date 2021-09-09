@@ -1,0 +1,43 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "http:",
+        "slashes": true,
+        "auth": null,
+        "host": "tepcv.din.developpement-durable.gouv.fr",
+        "port": null,
+        "hostname": "tepcv.din.developpement-durable.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "http://tepcv.din.developpement-durable.gouv.fr/"
+      },
+      "link": "http://tepcv.din.developpement-durable.gouv.fr/",
+      "line": "--2021-09-09 12:57:34--  http://tepcv.din.developpement-durable.gouv.fr/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "authentification.din.developpement-durable.gouv.fr",
+        "port": null,
+        "hostname": "authentification.din.developpement-durable.gouv.fr",
+        "hash": null,
+        "search": "?backURL=http%3A%2F%2Ftepcv.din.developpement-durable.gouv.fr%2F&v=4.1.1&appId=553",
+        "query": "backURL=http%3A%2F%2Ftepcv.din.developpement-durable.gouv.fr%2F&v=4.1.1&appId=553",
+        "pathname": "/authSAML/login/LoginDispatchAction.do",
+        "path": "/authSAML/login/LoginDispatchAction.do?backURL=http%3A%2F%2Ftepcv.din.developpement-durable.gouv.fr%2F&v=4.1.1&appId=553",
+        "href": "https://authentification.din.developpement-durable.gouv.fr/authSAML/login/LoginDispatchAction.do?backURL=http%3A%2F%2Ftepcv.din.developpement-durable.gouv.fr%2F&v=4.1.1&appId=553"
+      },
+      "link": "https://authentification.din.developpement-durable.gouv.fr/authSAML/login/LoginDispatchAction.do?backURL=http%3A%2F%2Ftepcv.din.developpement-durable.gouv.fr%2F&v=4.1.1&appId=553",
+      "line": "--2021-09-09 12:57:36--  https://authentification.din.developpement-durable.gouv.fr/authSAML/login/LoginDispatchAction.do?backURL=http%3A%2F%2Ftepcv.din.developpement-durable.gouv.fr%2F&v=4.1.1&appId=553",
+      "broken": false
+    }
+  ],
+  "broken": []
+}

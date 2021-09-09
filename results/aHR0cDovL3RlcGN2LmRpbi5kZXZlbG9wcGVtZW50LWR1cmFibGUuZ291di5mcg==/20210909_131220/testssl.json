@@ -1,0 +1,1194 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_AVERAGE",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_GOOD",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "NOT a cipher order configured"
+          }
+,         {
+              "id"           : "protocol_negotiated",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Default protocol TLS1.3"
+          }
+,         {
+              "id"           : "cipher_negotiated",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLS_AES_256_GCM_SHA384, 253 bit ECDH (X25519)  (limited sense as client will pick)"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc030",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9f",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x6b",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc077",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH 521   Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc02f",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9e",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x67",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc076",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH 521   Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "supportedciphers_TLSv1_2",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 ECDHE-RSA-CAMELLIA256-SHA384 AES256-GCM-SHA384 AES256-SHA256 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 ECDHE-RSA-CAMELLIA128-SHA256"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : ""
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 300 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "43BE0B5F6D1C9B1EFB1A693ED0F4167E"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "4746529C28EC86B93D18B8299EE0426266195059"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E8F62243CB478775C524E63B4F779ED50380B80FBA54A325A1BD2FFA7FCDBBFD"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIJwzCCB6ugAwIBAgIQQ74LX20cmx77Gmk+0PQWfjANBgkqhkiG9w0BAQsFADB9 MQswCQYDVQQGEwJGUjESMBAGA1UECgwJREhJTVlPVElTMRwwGgYDVQQLDBMwMDAy IDQ4MTQ2MzA4MTAwMDM2MR0wGwYDVQRhDBROVFJGUi00ODE0NjMwODEwMDAzNjEd MBsGA1UEAwwUQ2VydGlnbmEgU2VydmljZXMgQ0EwHhcNMjAwOTI1MTIxOTQ2WhcN MjEwOTI1MTIxOTQ2WjCBvzELMAkGA1UEBhMCRlIxGTAXBgNVBAcMEFBBUklTIExB IERFRkVOU0UxIDAeBgNVBAoMF1NHIE1JTiBUUkFOUyBFQ09MIFNPTElEMRwwGgYD VQQLDBMwMDAyIDEzMDAxOTU0MDAwMDI1MUEwPwYDVQQDDDhwb3J0YWlsLmNlbnRy ZS1zZXJ2ZXVyLmRpbi5kZXZlbG9wcGVtZW50LWR1cmFibGUuZ291di5mcjESMBAG A1UEBRMJUzE3NjI5MDEwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA 5iWjoTBEhwFO8krvkBeHIj2x5zJn8gOAjU3WZqIiGb5Q60sbPh+gY6uSYoyq3zb8 /X0hzP3rkgXKAhc9S6Quqv0GDdMGMitqq3aMXFKMUr9Cray3GBy3CQex+etsiuC6 gk4ShM4G1mniw2oHusE1DsFsX5YPwTv9g+7BzKM4Bvl+2X8NdaOGO22I36Fy9M23 T6KHiAV+ixfhcio6ZDdlzjVJO54NQ2NnXkZTkV4z676dUjGYG4+WfzdOzPuBDSr6 HDv7Q/JEanNnWhUZ7VvmIHmJ+NBL6O7BFuf1IrNVHWlXFPlZSCILloCJstnkwAxM 2VVsvqF5JfZg8x2M9c/uTQIDAQABo4IE+jCCBPYwCQYDVR0TBAIwADAOBgNVHQ8B Af8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwZQYDVR0fBF4wXDAroCmgJ4Yl aHR0cDovL2NybC5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmNybDAtoCugKYYnaHR0 cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMIHkBggrBgEFBQcB AQSB1zCB1DA2BggrBgEFBQcwAoYqaHR0cDovL2F1dG9yaXRlLmNlcnRpZ25hLmZy L3NlcnZpY2VzY2EuZGVyMDgGCCsGAQUFBzAChixodHRwOi8vYXV0b3JpdGUuZGhp bXlvdGlzLmNvbS9zZXJ2aWNlc2NhLmRlcjAuBggrBgEFBQcwAYYiaHR0cDovL3Nl cnZpY2VzY2Eub2NzcC5jZXJ0aWduYS5mcjAwBggrBgEFBQcwAYYkaHR0cDovL3Nl cnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29tMB0GA1UdDgQWBBRThLHuAPlWBoom RcBF5F+ZkeqLWDAfBgNVHSMEGDAWgBSs7IaPSzccuH8XGxnQruhO4zRcEjCB5AYD VR0RBIHcMIHZgjhwb3J0YWlsLmNlbnRyZS1zZXJ2ZXVyLmRpbi5kZXZlbG9wcGVt ZW50LWR1cmFibGUuZ291di5mcoI0cG9ydGFpbC5jZW50cmUtc2VydmV1ci5kZXZl bG9wcGVtZW50LWR1cmFibGUuZ291di5mcoI0cmVkbWluZS1jcy5hcHBsaWNhdGlv bi5kZXZlbG9wcGVtZW50LWR1cmFibGUuZ291di5mcoIxcmVkbWluZS5hcHBsaWNh dGlvbi5kZXZlbG9wcGVtZW50LWR1cmFibGUuZ291di5mcjBUBgNVHSAETTBLMAgG BmeBDAECAjA/BgsqgXoBgTECBQEBATAwMC4GCCsGAQUFBwIBFiJodHRwczovL3d3 dy5jZXJ0aWduYS5mci9hdXRvcml0ZXMvMIIB9wYKKwYBBAHWeQIEAgSCAecEggHj AeEAdwBElGUusO7Or8RAB9io/ijA2uaCvtjLMbU/0zOWtbaBqAAAAXTFNIO9AAAE AwBIMEYCIQCnCxgF60hLvVR8KF2aam3ZxqEfu4gWLqPZa3C86xRlnAIhAJGNWUfX Hs22PJSeZqHGeJ8NpeZNTKaFyOdAVesI5TvEAHcAb1N2rDHwMRnYmQCkURX/dxUc EdkCwQApBo2yCJo32RMAAAF0xTSEcAAABAMASDBGAiEAka9MH52TYtxLhbNJmAap F7ET4jEaZX6RFZloKPMxf0ACIQD41KD5Z17nUm3YOrBJxRcxFZyEkSOJZrk29HYc mxKIbAB1AFzcQ5L+5qtFRLFemtRW5hA3+9X6R9yhc5SyXub2xw7KAAABdMU0hscA AAQDAEYwRAIgZJHIMjLN3jqsJAcbzpcxjgo9x0o1to/X4lZ+83vbc8YCIECj1s33 D/51F2b3Damy4mc2wSNL82DHoqWREAWsvx7fAHYA9lyUL9F3MCIUVBgIMJRWjuNN Exkzv98MLyALzE7xZOMAAAF0xTSHdQAABAMARzBFAiEA7Cjeuwp8J+mqe9f+kApi rHzTZqB/8m2UIw51CSQ3/mMCIG5QhUdrGRTKDGCq5UQWAoA1/7yY2A0brIG305BF yBAhMA0GCSqGSIb3DQEBCwUAA4ICAQBOan4TNkrVDS+Nqa2ksm6ckSIq1/eUmfj8 ufhCOanFjn8zqlaecfX3V/q9OUR6KhdswrMXYiMyp0BpRZCqXfSWGIO6Jbg8GM1o PJpnaZE1a8ETdPFRPlXP9WID+dZPp6fdyskZiV4Un/OaWdX2UYTxqdQ9mg9QEBjz hni0T+ifnpBGHUTRBMccSS1NSfzN6lai/NGBnz1U1iDd45XdOhXhtfLTIrH+SdSe WfnvXTqflGX0nuTghnwoXKyAd5LWQ//G4K1wXkDYECxGVRaUj1TLgbpwYNsKba3G it2qcvjLw3tOowPnwNWD/4GNX5jRS9QFf1a/C3CiZJSUwcSzWJJJ4bo+BhTlUpIM XJ8FmpCcc8GsTMdikZRPYX0QIKNOxIE4LVW5ATX/BDHhcCH1CQFyXJ8e0X3D1jSV mzWkcSjEUm6ItsJdltICMrl1xkpAA03dGr6+5G6cMgDVzgymvsHGC3byy3zVPPdJ KXJRuFjLWFLOXoc7OriDjt1o3bfLWVRXia9Xzkv3z9LzANFDLwykPkcUjfujtJNv X83F8XqKf3O5FfMTpuZknT+N7gpBh1LZ+ZNKromixMvQ2uUsGKjcxC+8M7pCo7vy EKnnfnsxiCwZ3Xt1YAKeG7IPJKSShv4tL+S7OG+Bd8EB0jUeRtsaFyKs5IrACdk3 ot6Lw8o/3w== -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "portail.centre-serveur.din.developpement-durable.gouv.fr"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "portail.centre-serveur.din.developpement-durable.gouv.fr"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "portail.centre-serveur.din.developpement-durable.gouv.fr portail.centre-serveur.developpement-durable.gouv.fr redmine-cs.application.developpement-durable.gouv.fr redmine.application.developpement-durable.gouv.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "certificate does not match supplied URI (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "failed (chain incomplete)."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (15)"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2020-09-25 12:19"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "2021-09-25 12:19"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "certificate has no extended life time according to browser forum"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "issue=certigna.com, issue=letsencrypt.org"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "yes (certificate extension)"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "3"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna Services CA (DHIMYOTIS from FR)"
+          }
+,         {
+              "id"           : "intermediate_cert <#1>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIEgTCCA2mgAwIBAgIBGTANBgkqhkiG9w0BAQsFADA0MQswCQYDVQQGEwJGUjES MBAGA1UECgwJRGhpbXlvdGlzMREwDwYDVQQDDAhDZXJ0aWduYTAeFw0wODExMTkx MzUyMzJaFw0xODExMTcxMzUyMzJaMGMxCzAJBgNVBAYTAkZSMRIwEAYDVQQKDAlE aGlteW90aXMxFzAVBgNVBAsMDjAwMDIgNDgxNDYzMDgxMRowGAYDVQQDDBFDZXJ0 aWduYSBTU0wgUFJJUzELMAkGA1UEBRMCMjUwggEiMA0GCSqGSIb3DQEBAQUAA4IB DwAwggEKAoIBAQDDNhjsv4vHoHb8xg8I4PiGCx2uApFkyD/PmfgpoCdMqPqpM4Pn wPFb20Vu2hDSVmcRn3FexsAQaMj/Uy/CVUJfS74b4WvtH/66gF7mViJGaNwkcZ/N wkWr2lje5SSAk4iSCsaOEE5iSTD41d5qhHEa2qWbkM8WM/+OTCxuUuSb5ugai4Lp MUdnVsijp0A9s54zDcfyTfJIOg3Rn0IxDe2waeRnaezVJ8HbGFbp9H+3cbuRth3w cp3TIo+rAu9gIOEUrYtDwaT2+M1HMdlIKSYg0LEVB90uHyPXiQATViLXqpp3UsOp uMZRmm7Yk3OAKuhYawl9jRb/06ZhDcE5ug5lAgMBAAGjggFtMIIBaTAPBgNVHRMB Af8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjARBglghkgBhvhCAQEEBAMCAgQwFwYD VR0gBBAwDjAMBgoqgXoBgTEBAAEBMB0GA1UdDgQWBBSTzSbc2qsljwYgp9fx0gOr /65AazBkBgNVHSMEXTBbgBQa7f5BOZC0JFm+AfJS1UX2WjncEaE4pDYwNDELMAkG A1UEBhMCRlIxEjAQBgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmGC CQD+3OMBD8lI/zAyBglghkgBhvhCAQQEJRYjaHR0cDovL2NybC5jZXJ0aWduYS5m ci9jZXJ0aWduYS5jcmwwYQYDVR0fBFowWDApoCegJYYjaHR0cDovL2NybC5jZXJ0 aWduYS5mci9jZXJ0aWduYS5jcmwwK6ApoCeGJWh0dHA6Ly9jcmwuZGhpbXlvdGlz LmNvbS9jZXJ0aWduYS5jcmwwDQYJKoZIhvcNAQELBQADggEBAHpFr4hkb9StNC/6 GsoGJZjqe+nPGBmLG/NjMVIf1k3vIDSlUUBEd/U2AcpZxkUsR5iKQ80z9HZpGH0M ZBoPYVG70tCSFT9X4726WlUbhar3a6SnJ+kzPMbly/Kt49rcR3JPvcUtNg/MS75o h2CJsSz17Mm6kF7KfuGKD8eeobi56INg5uoNcJegn6NofZbg86GPHxEvLJLwDHGf tDJu4Cri3FoyEXLR1GO/E4qJI8pkoXQ0ZQl3l0a6z5goQwWYo9H+ED9x4RhkrDdq nfFLQLMrTSncMIJGR8f0khYAksVIFBHhbytTC6Roh0EH130kNVEA4eytYP2dhBte Il5s0yo= -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "35A90DEB8BF4BD7C23BDE61E065B6EBED236172F342D8F29C65D97F3EC0E10E4"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#1>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2008-11-19 13:52"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#1>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "2018-11-17 13:52"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#1>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "expired!"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#1>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "25 <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert <#2>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE----- MIIDqDCCApCgAwIBAgIJAP7c4wEPyUj/MA0GCSqGSIb3DQEBBQUAMDQxCzAJBgNV BAYTAkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hMB4X DTA3MDYyOTE1MTMwNVoXDTI3MDYyOTE1MTMwNVowNDELMAkGA1UEBhMCRlIxEjAQ BgNVBAoMCURoaW15b3RpczERMA8GA1UEAwwIQ2VydGlnbmEwggEiMA0GCSqGSIb3 DQEBAQUAA4IBDwAwggEKAoIBAQDIaPHJ1tazNHUmgh7stL7qXOEm7RFHYeGifBZ4 QCHkYJ5ayGPhxLGWkv8YbWkj4Sti993iNi+RB7lIzw7sebYs5zRLcAglozyHGxny gQcPOJAZ0xH+hrTy0V4eHpbNgGzOOzGTtvKg0KmVEn2lmsxryIRWijOp5yIVUxbw zBfsV1/pogqYCd7jX5xv3EjjhQsVWqa6n6xI4wmy9/Qy3l40vhx4XUJbzg4ij02Q 130yGLMLLGq/jj8UEYkgDncUtT2UCIf3JR7VsmAA7G8qKCVuKj4YYxclPz5EIBb2 JsglrgVKtOdjLPOMFlN+XPsRGgjBRmKfIrjxwo1p3Po6WAbfAgMBAAGjgbwwgbkw DwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUGu3+QTmQtCRZvgHyUtVF9lo53BEw ZAYDVR0jBF0wW4AUGu3+QTmQtCRZvgHyUtVF9lo53BGhOKQ2MDQxCzAJBgNVBAYT AkZSMRIwEAYDVQQKDAlEaGlteW90aXMxETAPBgNVBAMMCENlcnRpZ25hggkA/tzj AQ/JSP8wDgYDVR0PAQH/BAQDAgEGMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG 9w0BAQUFAAOCAQEAhQMeknH2Qq/ho2Ge6/PAD/Kl1NqV5ta+aDY9fm4fTIrv0Q8h bV6lUmPOEvjvKtpv6zf+EwLHyzs+ImvaYS5/1HI93TDhHkxAGYwP15zRgzB7mFnc fca5DClMoTOi62c6ZYTTluLtdkVwj7Ur3vkj1kluPBS1xp81HlDQwY9qcEQCYsuu HWhBp6pX6FOqB9IG9tUUBguRA3UsbHK1YZWaDYu5Def131TN3ubY1gkIl2PlwS6w t0QmwCbAr1UwnjvVNioZBPRcHv/PLLf/0P2HQBHVESO7SMAhqaQoLf0V+LBOK/Qw WyH8EZE0vkHve52Xdf+XlcCWWC/qu0bXu+TZLg== -----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "E3B6A2DB2ED7CE48842F7AC53241C7B71D54144BFB40C11F3F1D0B42F5EEA12D"
+          }
+,         {
+              "id"           : "intermediate_cert_notBefore <#2>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2007-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_notAfter <#2>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2027-06-29 15:13"
+          }
+,         {
+              "id"           : "intermediate_cert_expiration <#2>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
+          }
+,         {
+              "id"           : "intermediate_cert_chain <#2>",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Certigna <-- Certigna"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "200 OK ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 seconds from localtime"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Apache"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/'"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://censys.io/ipv4?q=E8F62243CB478775C524E63B4F779ED50380B80FBA54A325A1BD2FFA7FCDBBFD"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "RFC3526/Oakley Group 14"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_442",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_500",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_74_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_71_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_17_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-opera_66_win10",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_9_ios9",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_9_osx1011",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_10_osx1012",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-apple_ats_9_ios9",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_6u45",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-java1201",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_68_3_1",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "T"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to T. Issues with the chain of trust (chain incomplete)"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to M. Domain name mismatch"
+          }
+,         {
+              "id"           : "grade_cap_reason_3",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "tepcv.din.developpement-durable.gouv.fr/194.5.170.153",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "671"
+          }
+]
