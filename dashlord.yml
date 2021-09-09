@@ -18,7 +18,15 @@ tools:
   codescan: true
   stats: true
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-  - url: https://beta.gouv.fr
+  - url: http://tepcv.din.developpement-durable.gouv.fr
+  - url: https://resorption-bidonvilles.beta.gouv.fr
+    category: logement
+    repositories: 
+      - MTES-MCT/resorption-bidonvilles
+  - url: https://api.resorption-bidonvilles.beta.gouv.fr
+    category: logement
+    repositories: 
+      - MTES-MCT/resorption-bidonvilles
+    tools:
+      stats: false
+
